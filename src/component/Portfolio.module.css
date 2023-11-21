@@ -1,0 +1,82 @@
+/* Portfolio.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+
+.portfolio {
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 20px;
+  margin-top: 228px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.text h1 {
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  font-weight: 300;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  height: 260px;
+  gap: 50px;
+}
+
+.second img {
+  width: 236px;
+  height: 200px;
+}
+
+.image {
+  transition: filter 0.3s;
+}
+
+.image:hover {
+  transition: 0.2s;
+  filter: blur(5px);
+  transform: translateY(-2px);
+}
+
+.image:hover::after {
+  content: "Read More";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* end */
+
+/* Media queries for responsive design */
+@media (max-width: 992px) {
+  .second img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .second img {
+    width: 100%; /* On smaller screens, reduce the width of the images to 39% */
+  }
+  .portfoli {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .second img {
+    width: 100%;
+    height: auto;
+  }
+  .second {
+    flex-direction: column; /* Change flex-direction to column on screens with max-width: 480px */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}

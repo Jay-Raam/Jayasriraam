@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+.skill{
+    height: 540px;
+    background-color: #fff;
+}
+.container{
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin-top: 60px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    height: 708px;
+}
+.zero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 40px;
+}
+.second{
+  padding: 10px;
+    border: 2px solid;
+    border-color: #1b325f;
+    border-radius: 15px;
+    height: 248px;
+    cursor: none;
+    text-align: center;
+}
+.Main{
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #1b325f;
+    height: 248px;
+    width: 238px;
+    cursor: none;
+    text-align: center;
+}
+.text h1{
+     font-family: 'Crimson Text', serif;
+    font-weight: 300;
+}
+.three h1{
+     font-family: 'Crimson Text', serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+.Main h1{
+     font-family: 'Crimson Text', serif;
+    font-weight: 300;
+}
+    .text_list{
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 300;
+    }
+.three{
+    padding: 10px;
+    cursor: none;
+    border: 2px solid;
+    border-color: #1b325f;
+    border-radius: 15px;
+    height: 204px;
+     text-align: center;
+}
+.three:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     transform: translateY(-2px);
+}
+.second:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     transform: translateY(-2px);
+}
+.Main:hover{
+     transform: translateY(-2px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.second h1{
+    font-size: 25px;
+}
+.text_list{
+    margin-top: 8px;
+    text-align: center;
+}
+.text_list li{
+    margin-bottom: 4px;
+}
+.myClass{
+    height: 220px;
+}
+.image{
+    text-align: center;
+    height: 308px;
+}
+.image h3{
+    font-weight: 300;
+     font-family: 'Crimson Text', serif;
+     margin-top: 16px;
+}
+.image img{
+    margin-top: 20px;
+    width: 50%;
+}
+
+/* media Query */
+
+@media (max-width: 768px) {
+    .skill {
+        height: auto;
+    }
+    
+    .zero {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .second, .Main, .three {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .second h1 {
+        font-size: 20px;
+    }
+
+    .image h1 {
+        font-size: 18px;
+    }
+
+    .image img {
+    margin-top: 10px;
+    width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .second, .Main, .three {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .second h1 {
+        font-size: 22px;
+    }
+
+    .three h1{
+        font-size: 20px;
+    }
+      .Main h1{
+        font-size: 20px;
+    }
+      .second h1{
+        font-size: 20px;
+    }
+    .image h1 {
+        font-size: 20px;
+    }
+
+    .image img {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 325px){
+    .three{
+        height: 276px;
+    }
+}
