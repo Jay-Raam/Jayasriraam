@@ -1,0 +1,99 @@
+/* carousel.module.css */
+
+/* Base styles */
+
+.skill {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.one {
+  width: 100%; /* Adjust width for smaller screens */
+  max-width: 340px; /* Limit maximum width for larger screens */
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.zero {
+  display: flex;
+  width: 300%;
+}
+
+.slide {
+  flex: 0 0 33.333%;
+  transition: transform 0.3s ease;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.text_list li {
+  margin-bottom: 5px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-decoration: none;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.right {
+  width: 200px;
+  height: auto;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  .skill {
+    max-width: 100%; /* Use full width for smaller screens */
+  }
+
+  .one {
+    max-width: 100%; /* Use full width for smaller screens */
+  }
+
+    .zero{
+        width:200%;
+    }
+  .slide {
+    flex: 0 0 50%; /* Adjust slide width for smaller screens */
+  }
+
+  .right {
+    width: 150px; /* Adjust image width for smaller screens */
+  }
+}

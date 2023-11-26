@@ -65,6 +65,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .home {
+  height: 42.625rem;
+}
   .btn{
     margin-left: 47px;
   }
@@ -74,9 +77,6 @@
   .text1 {
     font-size: 28px;
   }
-    .image img{
-      height: 300px;
-    }
   .text2 {
     font-size: 16px;
   }

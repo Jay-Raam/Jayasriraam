@@ -43,9 +43,9 @@ function Contact(){
                    <div className={styles.contact1}>
                         <h1>Get in Touch</h1>
                              <div className={styles.link_text}>
+                                <a href="https://www.instagram.com/_ivanjay_/">_ivanjay_</a>
                                 <a href="/">Jayasriraam.job@gmail.com</a>
                                 <a href="/">+91 9790161669</a>
-                                <a href="https://www.instagram.com/_ivanjay_/">_ivanjay_</a>
                              </div>
                     </div>
                 </div>

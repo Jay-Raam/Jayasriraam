@@ -1,175 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
-.skill{
-    height: 540px;
-    background-color: #fff;
+.skill {
+  background-color: #fff;
 }
-.container{
-    margin: 0 auto;
+.container {
+  margin: 0 auto;
 }
-.title{
-    text-align: center;
-    margin-top: 60px;
+.title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
-.one{
-    display: flex;
-    flex-direction: column;
-    height: 708px;
+.title h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
-.zero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    gap: 40px;
+.one {
+  display: flex;
+  flex-direction: column;
+  height: 708px;
+  gap: 8px;
 }
-.second{
-  padding: 10px;
-    border: 2px solid;
-    border-color: #1b325f;
-    border-radius: 15px;
-    height: 248px;
-    cursor: none;
-    text-align: center;
+.zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  gap: 40px;
 }
-.Main{
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px solid;
-    border-color: #1b325f;
-    height: 248px;
-    width: 238px;
-    cursor: none;
-    text-align: center;
+.text_list {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
-.text h1{
-     font-family: 'Crimson Text', serif;
-    font-weight: 300;
+
+.six {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-around;
 }
-.three h1{
-     font-family: 'Crimson Text', serif;
-    font-weight: 300;
-    font-size: 25px;
+
+.seven {
+  width: 100%;
+  height: 280px;
 }
-.Main h1{
-     font-family: 'Crimson Text', serif;
-    font-weight: 300;
+.three:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: translateY(-2px);
 }
-    .text_list{
-         font-family: 'Montserrat', sans-serif;
-         font-weight: 300;
-    }
-.three{
-    padding: 10px;
-    cursor: none;
-    border: 2px solid;
-    border-color: #1b325f;
-    border-radius: 15px;
-    height: 204px;
-     text-align: center;
+
+.second h1 {
+  font-size: 25px;
 }
-.three:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-     transform: translateY(-2px);
+.text_list {
+  margin-top: 8px;
+  text-align: center;
 }
-.second:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-     transform: translateY(-2px);
+.text_list li {
+  margin-bottom: 4px;
 }
-.Main:hover{
-     transform: translateY(-2px);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.myClass {
+  height: 220px;
 }
-.second h1{
-    font-size: 25px;
+.image {
+  text-align: center;
 }
-.text_list{
-    margin-top: 8px;
-    text-align: center;
+.image h3 {
+  font-weight: 300;
+  font-family: "Crimson Text", serif;
+  margin-top: 16px;
 }
-.text_list li{
-    margin-bottom: 4px;
-}
-.myClass{
-    height: 220px;
-}
-.image{
-    text-align: center;
-    height: 308px;
-}
-.image h3{
-    font-weight: 300;
-     font-family: 'Crimson Text', serif;
-     margin-top: 16px;
-}
-.image img{
-    margin-top: 20px;
-    width: 50%;
+.image img {
+  margin-top: 20px;
+  width: 50%;
 }
 
 /* media Query */
 
+@media (max-width: 1440) {
+  .image img {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
-    .skill {
-        height: auto;
-    }
-    
-    .zero {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-    }
+  .skill {
+    height: 920px;
+  }
 
-    .second, .Main, .three {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .zero {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
 
-    .second h1 {
-        font-size: 20px;
-    }
+  .three {
+    width: 43%;
+  }
+  .six {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .seven {
+    width: 100%;
+    height: 210px;
+  }
+  .second h1 {
+    font-size: 20px;
+  }
 
-    .image h1 {
-        font-size: 18px;
-    }
+  .image h1 {
+    font-size: 18px;
+  }
 
-    .image img {
+  .image img {
     margin-top: 10px;
     width: 100%;
-    }
+  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
-    .second, .Main, .three {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .second h1 {
+    font-size: 22px;
+  }
+  .three {
+    width: 43%;
+  }
+  .six {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .seven {
+    width: 100%;
+    height: 210px;
+  }
 
-    .second h1 {
-        font-size: 22px;
-    }
+  .three h1 {
+    font-size: 20px;
+  }
+  .Main h1 {
+    font-size: 20px;
+  }
+  .second h1 {
+    font-size: 20px;
+  }
+  .image h1 {
+    font-size: 20px;
+  }
 
-    .three h1{
-        font-size: 20px;
-    }
-      .Main h1{
-        font-size: 20px;
-    }
-      .second h1{
-        font-size: 20px;
-    }
-    .image h1 {
-        font-size: 20px;
-    }
-
-    .image img {
-        margin-top: 10px;
-        width: 100%;
-    }
+  .image img {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
 
-@media (max-width: 325px){
-    .three{
-        height: 276px;
-    }
+@media (max-width: 425px) {
+  .three {
+    height: 276px;
+  }
+  .three {
+    width: 100%;
+  }
+  .six {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .seven {
+    width: 100%;
+    height: 210px;
+  }
 }

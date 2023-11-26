@@ -90,6 +90,10 @@
   color: black;
   font-weight: 600;
 }
+.five li:hover{
+  text-decoration: underline;
+  transition: .2s;
+}
 .btn {
   border-radius: 8px;
   background: #06f;
