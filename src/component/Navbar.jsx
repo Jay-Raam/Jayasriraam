@@ -26,17 +26,17 @@ function Navbar() {
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#catalog" className={`${styles.navLink}`}>
+              <a href="#About" className={`${styles.navLink}`}>
                 About
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#products" className={`${styles.navLink}`}>
+              <a href="#skill" className={`${styles.navLink}`}>
                 Skill
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href="#products" className={`${styles.navLink}`}>
+              <a href="#work" className={`${styles.navLink}`}>
                 Works
               </a>
             </li>
