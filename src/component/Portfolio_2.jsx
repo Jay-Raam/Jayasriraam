@@ -3,9 +3,9 @@ import styles from "./Portfolio.module.css";
 import myImage_1 from '../image/m(4).png';
 import myImage_2 from '../image/m(8).png';
 import myImage_3 from '../image/m(7).png';
-import myImage_4 from '../image/m6.png';
+import myImage_4 from '../image/m(5).png';
 import myImage_5 from '../image/m(6).png';
-import myImage_6 from '../image/m2.jpg';
+import myImage_6 from '../image/m9.jpg';
 
 function Portfolio() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from '../image/baner-4.png'; 
+import myImage from '../image/m10.jpg'; 
 import styles from "./Home.module.css";
 
 function Home() {
