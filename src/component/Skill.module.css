@@ -50,6 +50,8 @@
 .three:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transform: translateY(-2px);
+  border-radius: 20px;
+  cursor: none;
 }
 
 .second h1 {
@@ -118,7 +120,7 @@
 
   .image img {
     margin-top: 10px;
-    width: 100%;
+    width: 75%;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
