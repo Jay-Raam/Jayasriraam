@@ -7,6 +7,7 @@ import myImage_4 from '../image/image 26.png';
 
 
 function Contact(){
+    const d = new Date();
     return <div className={styles.contact}>
         <div className={styles.container}>
             <div className={styles.one}>
@@ -14,7 +15,7 @@ function Contact(){
                     <div className={styles.logo_text}>
                          <div className={styles.text}>
                                     <h1 className={styles.name}>Jayasriraam</h1>
-                                    <h4>Welcome The Tech World</h4>
+                                    <h4>Welcome To Tech World</h4>
                          </div>
                          <div className={styles.link}>
                                 <a href="https://www.instagram.com/_ivanjay_/">
@@ -49,6 +50,11 @@ function Contact(){
                              </div>
                     </div>
                 </div>
+            </div>
+
+            <div className={styles.copy}>
+                    <h6>Jayasriraam</h6>
+                    <p>{d.getFullYear()} Copyright Received</p>
             </div>
         </div>
     </div>

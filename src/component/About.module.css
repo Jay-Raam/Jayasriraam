@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
+  max-width: 844px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -29,10 +29,10 @@
     font-family: 'Crimson Text', serif;
     font-weight: 100;
     color: black;
-    font-size: 17px;
+    font-size: 16px;
 }
 .one p {
-  margin-top: 8px;
+  margin-top: 27px;
 }
 
 .one h3 {

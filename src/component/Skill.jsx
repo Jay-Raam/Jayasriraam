@@ -2,7 +2,7 @@ import styles from "../component/Skill.module.css";
 import React from "react";
 import myImage from "../image/baner7.png";
 import myImage2 from "../image/baner8.png";
-import myImage3 from "../image/m3.jpg";
+import myImage3 from "../image/m10.jpg";
 import Carousel from "./carousel";
 
 function Skill() {
