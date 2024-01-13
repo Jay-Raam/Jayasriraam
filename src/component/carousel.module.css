@@ -21,6 +21,7 @@
 .zero {
   display: flex;
   width: 300%;
+  height: 230px;
 }
 
 .slide {

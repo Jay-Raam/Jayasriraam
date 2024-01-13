@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import styles from "./carousel.module.css"; // Import your CSS module
-// import myImage2 from "../image/m(8).png";
+import styles from "./carousel.module.css"; 
+
 
 const Carousel = () => {
   const [slideIndex, setSlideIndex] = useState(0);
-  const totalSlides = 3; // Update this with the total number of slides
+  const totalSlides = 3; 
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -15,7 +15,7 @@ const Carousel = () => {
           return prevIndex + 1;
         }
       });
-    }, 3000); // Change slide every 3 seconds (adjust as needed)
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, [totalSlides]);
@@ -27,7 +27,6 @@ const Carousel = () => {
     flexDirection: "column",
     overflow: "hidden",
     alignItems: "center",
-    height: "300",
   };
 
   const slideContents = [
@@ -38,8 +37,7 @@ const Carousel = () => {
         "JavaScript",
         "C#",
         "React",
-        "Mysql",
-        "Java",
+        "Mysql , Java",
         "Version Control",
       ],
     },
@@ -58,7 +56,7 @@ const Carousel = () => {
       list: [
         "Marketing Strategy",
         "Logo Design",
-        "Tadline",
+        "Tagline",
         "Customer Experience",
       ],
     },
