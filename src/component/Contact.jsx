@@ -35,9 +35,10 @@ function Contact(){
                 </div>
                   <div className={styles.menu}>
                         <ul className={styles.five}>
-                            <a href="/"><li>About</li></a>
-                            <a href="/"><li>Skil</li></a>
-                            <a href="/"><li>Works</li></a>
+                            <a href="/"><li>Focus</li></a>
+                            <a href="/"><li>Goal</li></a>
+                            <a href="/"><li>Success</li></a>
+                            <a href="/"><li>Do all Time</li></a>
                         </ul>
                     </div>
                 <div className={styles.three}>
@@ -54,7 +55,7 @@ function Contact(){
 
             <div className={styles.copy}>
                     <h6>Jayasriraam</h6>
-                    <p>{d.getFullYear()} Copyright Received</p>
+                    <p>{d.getFullYear()} Copyright Received By Jayasriraam</p>
             </div>
         </div>
     </div>

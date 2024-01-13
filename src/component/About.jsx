@@ -10,15 +10,15 @@ function About() {
             <div className={styles.text}>
                       <h1 className={styles.text1}>About Us</h1>
           <p className={styles.text2}>
-I have a strong passion for learning and a knack for quickly adopting new technologies and knowledge. 
-I believe this adaptability will help me develop both hard and soft skills crucial for success in my chosen career path.
-Specifically, I am eager to gain expertise in web development and UI/UX design. I already possess skills in
-JavaScript and some frameworks, which I'm continuously improving.<br></br>
-
-<br></br>
-
-I am enthusiastic about my career journey in web development and UI/UX Enthusiast, and I'm committed to working towards these goals.
+I possess a wide range of skills in React.Js, HTML, CSS, and JavaScript, as well as C#. My specialization lies in UI/UX design, where I demonstrate exceptional attention to detail and a talent for crafting visually captivating and intuitive interfaces.
+<br/>
+<br/>
+Eager to embark on my tech adventure, I bring not just skills, but a creative mindset. Ready to roll up my sleeves, I'm here to collaborate and breathe life into your ideas. 
+<br/>
+<br/>
+Let's turn the ordinary into extraordinary! 🚀🎨
           </p>
+           <a href="https://drive.google.com/file/d/1Y61n0IjA9nbJY-jDgymer7k38oeKK-NP/view?usp=sharing" className={styles.alt}><button type="button" className={styles.btn}>Resume</button></a>
             </div>
             <div className={styles.image}>
              <img src={myImage} alt="the men" className="image-1" />

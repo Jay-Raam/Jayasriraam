@@ -9,8 +9,8 @@
 }
 
 .one {
-  width: 100%; /* Adjust width for smaller screens */
-  max-width: 340px; /* Limit maximum width for larger screens */
+  width: 100%;
+  max-width: 340px;
 }
 
 .container {
@@ -27,7 +27,7 @@
 .slide {
   flex: 0 0 33.333%;
   transition: transform 0.3s ease;
-  border: 2px solid #000;
+  border: 2px solid rgb(2, 4, 44);
   border-radius: 20px;
 }
 
@@ -78,7 +78,7 @@ h1 {
 /* Media queries for responsiveness */
 
 @media screen and (max-width: 600px) {
-  /* Adjustments for smaller screens */
+  
   .skill {
     max-width: 100%; /* Use full width for smaller screens */
   }
@@ -87,9 +87,9 @@ h1 {
     max-width: 100%; /* Use full width for smaller screens */
   }
 
-    .zero{
-        width:200%;
-    }
+  .zero {
+    width: 200%;
+  }
   .slide {
     flex: 0 0 50%; /* Adjust slide width for smaller screens */
   }

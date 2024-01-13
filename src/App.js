@@ -1,9 +1,9 @@
-import Navbar from './component/Navbar';
 import './App.css';
-import Home from './component/home'; 
+import Navbar from './component/Navbar';
+import Home from './component/Home'; 
 import About from './component/About';
 import Skill from './component/Skill';
-import Portfolio from './component/Portfolio_2';
+import Portfolio from './component/Work';
 import Contact from './component/Contact';
 
 function App() {
