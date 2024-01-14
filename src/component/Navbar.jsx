@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#home" className={`${styles.logo}`}>
             Jayasriraam
           </a>
-          <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
+          <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`} >
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
                 Home
@@ -33,6 +33,11 @@ function Navbar() {
             <li onClick={removeActive}>
               <a href="#skill" className={`${styles.navLink}`}>
                 Skill
+              </a>
+            </li>
+            <li onClick={removeActive}>
+              <a href="#blog" className={`${styles.navLink}`}>
+                Blog
               </a>
             </li>
             <li onClick={removeActive}>

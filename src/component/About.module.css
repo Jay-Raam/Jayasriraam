@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
 .container {
   margin: 0 auto;
 }
@@ -26,11 +26,11 @@
   text-align: start;
   width: 552px;
 }
-.text2{
-    font-family: 'Crimson Text', serif;
-    font-weight: 100;
-    color: black;
-    font-size: 16px;
+.text2 {
+  font-family: "Crimson Text", serif;
+  font-weight: 100;
+  color: black;
+  font-size: 16px;
 }
 .one p {
   margin-top: 27px;
@@ -55,9 +55,13 @@
   color: white;
   margin-top: 36px;
 }
-.btn:hover{
-    transform: translateY(-2px);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.alt {
+  text-decoration: none;
 }
 
 /* Responsive design for smaller screens */
@@ -84,12 +88,12 @@
   .one h3 {
     font-size: 14px;
   }
-    .btn{
+  .btn {
     margin: 0 auto;
   }
 }
-@media (min-width: 769px) and (max-width: 992px){
-  .one img{
+@media (min-width: 769px) and (max-width: 992px) {
+  .one img {
     width: 100%;
   }
 }
@@ -101,11 +105,11 @@
     text-align: center;
   }
   .one p {
-        width: 100%;
+    width: 100%;
     padding: 15px;
     margin: 10px 0;
   }
-  .btn{
+  .btn {
     margin: 0 auto;
   }
 }
@@ -117,11 +121,11 @@
     text-align: center;
   }
   .one p {
-        width: 100%;
+    width: 100%;
     padding: 15px;
     margin: 10px 0;
   }
-    .btn{
+  .btn {
     margin: 0 auto;
   }
 }
@@ -133,7 +137,7 @@
     text-align: center;
   }
   .one p {
-        width: 100%;
+    width: 100%;
     padding: 15px;
     margin: 10px 0;
   }
