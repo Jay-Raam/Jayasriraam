@@ -85,7 +85,6 @@ function Contact() {
         </div>
 
         <div className={styles.copy}>
-          <h6>Jayasriraam</h6>
           <p>2023 © Copyright Received By Jayasriraam</p>
         </div>
       </div>
