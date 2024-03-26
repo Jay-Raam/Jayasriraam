@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Jayasriraam/static/css/main.ce2887fd.css",
-    "main.js": "/Jayasriraam/static/js/main.950293a5.js",
+    "main.css": "/Jayasriraam/static/css/main.ce7407ed.css",
+    "main.js": "/Jayasriraam/static/js/main.71c563be.js",
     "static/js/787.7da95b79.chunk.js": "/Jayasriraam/static/js/787.7da95b79.chunk.js",
+    "static/media/img_14.jpg": "/Jayasriraam/static/media/img_14.ea27634b9f085ac4748e.jpg",
     "static/media/baner-4.png": "/Jayasriraam/static/media/baner-4.4493d9adbe5d0f5b5c66.png",
     "static/media/m10.jpg": "/Jayasriraam/static/media/m10.980a434db4517733a1ff.jpg",
     "static/media/img_6.jpg": "/Jayasriraam/static/media/img_6.b6b33149c90c649add54.jpg",
     "static/media/gal_5.jpg": "/Jayasriraam/static/media/gal_5.b291c4b0aa48797488e9.jpg",
     "static/media/img_1.jpg": "/Jayasriraam/static/media/img_1.0eade691a3f5f37581ed.jpg",
     "static/media/img_7.jpg": "/Jayasriraam/static/media/img_7.14ce3f1a05f2c4f993cd.jpg",
-    "static/media/baner7.png": "/Jayasriraam/static/media/baner7.c92f2165020d78a2d4fc.png",
     "static/media/img_2.jpg": "/Jayasriraam/static/media/img_2.b9a177135f5fca11ea60.jpg",
     "static/media/img_3.jpg": "/Jayasriraam/static/media/img_3.0584528dc34ce4f385e2.jpg",
-    "static/media/baner8.png": "/Jayasriraam/static/media/baner8.407a8a9181bd12556cae.png",
+    "static/media/img_13.webp": "/Jayasriraam/static/media/img_13.5ac66b129bbf739e2c8a.webp",
     "static/media/img_4.jpg": "/Jayasriraam/static/media/img_4.65708a442ed2b9612c54.jpg",
     "static/media/img_9.jpg": "/Jayasriraam/static/media/img_9.f7b72a1a09c31ea39e4c.jpg",
     "static/media/gal_6.jpg": "/Jayasriraam/static/media/gal_6.8390b2d270ee85662903.jpg",
     "static/media/m11.avif": "/Jayasriraam/static/media/m11.d983dcd5cab7ea7cd08d.avif",
     "index.html": "/Jayasriraam/index.html",
-    "main.ce2887fd.css.map": "/Jayasriraam/static/css/main.ce2887fd.css.map",
-    "main.950293a5.js.map": "/Jayasriraam/static/js/main.950293a5.js.map",
+    "main.ce7407ed.css.map": "/Jayasriraam/static/css/main.ce7407ed.css.map",
+    "main.71c563be.js.map": "/Jayasriraam/static/js/main.71c563be.js.map",
     "787.7da95b79.chunk.js.map": "/Jayasriraam/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2887fd.css",
-    "static/js/main.950293a5.js"
+    "static/css/main.ce7407ed.css",
+    "static/js/main.71c563be.js"
   ]
 }
