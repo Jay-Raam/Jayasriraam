@@ -1,7 +1,5 @@
 /* carousel.module.css */
 
-/* Base styles */
-
 .skill {
   position: relative;
   max-width: 800px;
@@ -21,14 +19,13 @@
 .zero {
   display: flex;
   width: 300%;
-  height: 230px;
+      height: 250px;
 }
 
 .slide {
   flex: 0 0 33.333%;
   transition: transform 0.3s ease;
   border: 2px solid rgb(2, 4, 44);
-  border-radius: 20px;
 }
 
 h1 {
@@ -45,7 +42,7 @@ h1 {
 }
 
 .text_list li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .prev,
@@ -58,7 +55,7 @@ h1 {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   text-decoration: none;
-  z-index: 2;
+  z-index: 1010;
   cursor: pointer;
 }
 
@@ -75,26 +72,29 @@ h1 {
   height: auto;
 }
 
+
+
+
 /* Media queries for responsiveness */
 
 @media screen and (max-width: 600px) {
   
   .skill {
-    max-width: 100%; /* Use full width for smaller screens */
+    max-width: 100%; 
   }
 
   .one {
-    max-width: 100%; /* Use full width for smaller screens */
+    max-width: 100%; 
   }
 
   .zero {
     width: 200%;
   }
   .slide {
-    flex: 0 0 50%; /* Adjust slide width for smaller screens */
+    flex: 0 0 50%;
   }
 
   .right {
-    width: 150px; /* Adjust image width for smaller screens */
+    width: 150px; 
   }
 }

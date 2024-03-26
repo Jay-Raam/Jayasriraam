@@ -20,7 +20,6 @@
 .one {
   display: flex;
   flex-direction: column;
-  height: 708px;
   gap: 8px;
 }
 .zero {
@@ -74,9 +73,32 @@
   font-family: "Crimson Text", serif;
   margin-top: 16px;
 }
-.image img {
+
+.skillimagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 86%;
+  margin: 0 auto;
+}
+
+.main001 {
+  width: 40px;
+  margin-top: 17px;
+}
+
+.text {
+  text-align: center;
   margin-top: 20px;
-  width: 40%;
 }
 
 /* media Query */
@@ -86,51 +108,15 @@
     width: 50%;
   }
 }
-@media (max-width: 768px) {
-  .skill {
-    height: 920px;
-  }
 
-  .zero {
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
-  }
-
-  .three {
-    width: 43%;
-  }
-  .six {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .seven {
-    width: 100%;
-    height: 210px;
-  }
-  .second h1 {
-    font-size: 20px;
-  }
-
-  .image h1 {
-    font-size: 18px;
-  }
-
-  .image img {
-    margin-top: 10px;
-    width: 75%;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
+@media (max-width: 992px) {
   .second h1 {
     font-size: 22px;
   }
-  .three {
-    width: 43%;
-  }
   .six {
     width: 100%;
+    flex-direction: column;
+    gap: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -153,8 +139,42 @@
   }
 
   .image img {
-    margin-top: 10px;
     width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill {
+    height: 920px;
+  }
+
+  .zero {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .six {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .seven {
+    width: 100%;
+    height: 210px;
+  }
+  .second h1 {
+    font-size: 20px;
+  }
+
+  .image h1 {
+    font-size: 18px;
+  }
+
+  .image {
+    gap: 9px;
+    margin: 0 auto;
   }
 }
 
@@ -174,5 +194,9 @@
   .seven {
     width: 100%;
     height: 210px;
+  }
+  .image img {
+    margin-top: 10px;
+    width: 100%;
   }
 }

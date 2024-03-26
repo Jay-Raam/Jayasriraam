@@ -1,5 +1,5 @@
 /* Home.module.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
 .home {
   background-color: #ffffff;
   text-align: center;
@@ -22,12 +22,13 @@
 }
 .text1 {
   font-size: 36px;
-  color: #333;
+  color: #000;
+  font-family: 'Cinzel', serif;
 }
 
 .text2 {
   font-size: 18px;
-  color: #666;
+  color: #000;
   margin-top: 10px;
 }
 

@@ -15,6 +15,7 @@
 .gal_1 {
   display: flex;
   justify-content: space-evenly;
+      align-items: center;
   flex-wrap: wrap;
   text-align: center;
   margin-bottom: 50px;
@@ -26,7 +27,6 @@
   flex: 0 0 calc(33.33% - 20px);
   box-sizing: border-box;
   text-align: center;
-  height: 380px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -40,7 +40,7 @@
 }
 
 .gal_2:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .gal_4 {
@@ -64,17 +64,19 @@
   background: rgb(0, 0, 0);
   color: white;
   margin-top: 36px;
+  margin-bottom: 20px;
 }
-.gal_6:hover {
-  transform: translateY(-2px);
+.gal_2:hover button {
+  transform: translateY(2px);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
+
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
   .gal_2 {
     flex: 0 0 calc(50% - 20px);
-    height: 425px;
+    height: auto;
   }
   .gal_1 {
     gap: 20px;
@@ -85,7 +87,7 @@
   .gal_2 {
     flex: 0 0 100%;
     margin-bottom: 20px;
-    height: 485px;
+    height: auto;
   }
   .gal_6 {
     margin-left: 20px;
@@ -95,7 +97,7 @@
 /* Large screens */
 @media screen and (min-width: 1200px) {
   .gal_1 {
-    gap: 0px;
+    gap: 40px;
   }
 
   .gal_2 {

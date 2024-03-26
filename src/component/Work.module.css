@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
 
 .portfolio {
-  background-color: rgba(0, 0, 0, 0.02);
   padding: 20px;
-  height: 1600px;
 }
 
 .container {
@@ -16,6 +14,7 @@
   text-align: center;
   font-family: "Crimson Text", serif;
   font-weight: 300;
+  margin-bottom: 30px;
 }
 
 .second {
@@ -23,7 +22,7 @@
   justify-content: center;
   height: auto;
   gap: 50px;
-      margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .second img {
@@ -37,10 +36,10 @@
 
 .image:hover {
   transition: 0.2s;
-  transform: scale(1.1);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transform: scale(1.01);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
 
 /* Media queries for responsive design */
 @media (max-width: 992px) {
@@ -50,10 +49,9 @@
 }
 
 @media (max-width: 768px) {
-
   .portfolio {
-  height: auto;
-}
+    height: auto;
+  }
 
   .second img {
     width: 100%;

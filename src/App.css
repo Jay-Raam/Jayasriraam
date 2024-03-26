@@ -1,35 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,100&display=swap');
-body{
- font-family: 'Montserrat', sans-serif;   
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,100&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
 }
-.about{
-   background: rgba(0, 0, 0, 0.02);
-    height: 529px;
+
+html {
+  scroll-behavior: smooth;
 }
-.contact{
-    border: 2px solid #0000008f;
-    border-bottom: none;
-    border-right: none;
-    border-left: none;
+
+.about {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 45px;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+.blog {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 20px;
+}
+
+.contact {
+  border: 2px solid #0000008f;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
 }
 ::-webkit-scrollbar {
-  width: 5px; 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-    border-radius:6px;
-}
-
-
-@media(max-width: 768px){
-    .about{
-        height: 820px;
-    }
+  width: 0;
 }
