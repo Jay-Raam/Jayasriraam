@@ -7,16 +7,12 @@
 .about01 {
   height: 100%;
   margin: 0 auto;
-}
-
-.one {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 800px;
   width: 100%;
   gap: 40px;
-  margin: 0 auto;
 }
 
 .text {
