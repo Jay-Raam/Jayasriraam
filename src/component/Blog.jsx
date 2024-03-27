@@ -14,7 +14,7 @@ import "./blog.css";
 
 const BloggerAPIComponent = () => {
   return (
-    <div className="container" id="blog">
+    <div className="container">
       <h1 className="gal">Blog</h1>
       <ul className="gal_1">
         <li className="gal_2">

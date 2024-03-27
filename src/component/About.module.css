@@ -2,17 +2,17 @@
 
 .container {
   margin: 0 auto;
-}
-
-.about01 {
-  height: 100%;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 800px;
   width: 100%;
   gap: 40px;
+}
+
+.about01 {
+  height: 100%;
+  margin: 0 auto;
 }
 
 .text {
@@ -29,12 +29,12 @@
   align-items: center;
 }
 
-.one img {
+.image img {
   width: 287px;
   height: auto;
 }
 
-.one h1 {
+.text1 {
   font-size: 36px;
   text-align: start;
   width: 552px;
@@ -45,7 +45,7 @@
   color: black;
   font-size: 16px;
 }
-.one p {
+.text2 {
   margin-top: 27px;
 }
 
@@ -80,10 +80,7 @@
 /* Responsive design for smaller screens */
 
 @media (max-width: 992px) {
-  .one img {
-    width: 100%;
-  }
-  .one {
+  .container {
     gap: 60px;
     flex-direction: column;
   }
@@ -91,11 +88,11 @@
     text-align: center;
     width: 100%;
   }
-  .image {
+  .image img {
     width: 100%;
   }
 
-  .one h1 {
+  .text1 {
     text-align: center;
     margin: 0 auto;
   }
@@ -107,12 +104,12 @@
 }
 
 @media (max-width: 768px) {
-  .one h1 {
+  .text1 {
     font-size: 28px;
     text-align: center;
     width: auto;
   }
-  .one p {
+  .text2 {
     width: 385px;
     margin: 0 auto;
     margin-top: 20px;
@@ -125,48 +122,33 @@
 }
 
 /* Responsive design for screens with a maximum width of 425px */
-@media (max-width: 425px) {
-  .one {
+@media (max-width: 480px) {
+  .container {
     flex-direction: column;
     gap: 53px;
   }
-  .one h1 {
+  .text1 {
     font-size: 24px;
     text-align: center;
   }
-  .one p {
+  .text2 {
     width: 100%;
     padding: 15px;
     margin: 10px 0;
   }
   .btn {
     margin: 0 auto;
-  }
-}
-
-/* Responsive design for screens with a maximum width of 375px */
-@media (max-width: 375px) {
-  .one h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-  .one p {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-  }
-  .btn {
-    margin: 0 auto;
+    margin-top: 20px;
   }
 }
 
 /* Responsive design for screens with a maximum width of 325px */
 @media (max-width: 325px) {
-  .one h1 {
+  .text1 {
     font-size: 18px;
     text-align: center;
   }
-  .one p {
+  .text2 {
     width: 100%;
     padding: 15px;
     margin: 10px 0;

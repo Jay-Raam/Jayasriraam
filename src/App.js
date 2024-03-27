@@ -1,35 +1,35 @@
-import './App.css';
-import Navbar from './component/Navbar';
-import Home from './component/Home'; 
-import About from './component/About';
-import Skill from './component/Skill';
-import Blog from './component/Blog';
-import Portfolio from './component/Work';
-import Contact from './component/Contact';
+import "./App.css";
+import Navbar from "./component/Navbar";
+import Home from "./component/Home";
+import About from "./component/About";
+import Skill from "./component/Skill";
+import Blog from "./component/Blog";
+import Portfolio from "./component/Work";
+import Contact from "./component/Contact";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Navbar />
+        <Navbar />
         <Home />
       </header>
-      <div className='about'>
+      <div className="about" id="about">
         <About />
       </div>
-      <div className='skill'>
+      <div className="skill">
         <Skill />
       </div>
-      <div className="blog">
+      <div className="blog" id="blog">
         <Blog />
       </div>
-        <div className='Portfolio'>
+      <div className="Portfolio">
         <Portfolio />
       </div>
-      <div className='contact'>
+      <div className="contact">
         <Contact />
       </div>
-      </div>
+    </div>
   );
 }
 
