@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import styles from "./carousel.module.css"; 
-
+import styles from "./carousel.module.css";
 
 const Carousel = () => {
   const [slideIndex, setSlideIndex] = useState(0);
-  const totalSlides = 3; 
+  const totalSlides = 3;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -15,7 +14,7 @@ const Carousel = () => {
           return prevIndex + 1;
         }
       });
-    }, 3000); 
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [totalSlides]);
@@ -34,10 +33,9 @@ const Carousel = () => {
       title: "Web Development",
       list: [
         "Html & Css",
-        "JavaScript",
-        "React",
-        "Vite , Python",
-        "Mysql , Mangodb",
+        "JavaScript & TypeScript",
+        "React & NextJs",
+        "Nodejs",
         "Version Control",
       ],
     },

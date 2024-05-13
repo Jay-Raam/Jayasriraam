@@ -20,6 +20,7 @@
 .second {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   height: auto;
   gap: 50px;
   margin-bottom: 35px;
@@ -41,6 +42,24 @@
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.gal___01 {
+  display: flex;
+  justify-content: center;
+}
+
+.show {
+  opacity: 1;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.gap {
+  gap: 30px;
+  align-items: center;
+}
 /* Media queries for responsive design */
 @media (max-width: 992px) {
   .second img {
@@ -62,6 +81,10 @@
   .second img {
     width: 100%;
     height: auto;
+  }
+  .gap {
+    flex-direction: column;
+    width: 100%;
   }
   .second {
     flex-direction: column;

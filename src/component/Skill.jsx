@@ -1,6 +1,5 @@
 import styles from "../component/Skill.module.css";
 import React from "react";
-import myImage3 from "../image/m10.jpg";
 import Carousel from "./carousel";
 import MyImage01 from "../image/image 1.png";
 import MyImage02 from "../image/image 2.png";
@@ -21,6 +20,13 @@ import MyImage016 from "../image/image 16.png";
 import MyImage017 from "../image/image 17.png";
 import MyImage018 from "../image/image 18.png";
 
+const data = [
+  "Writing and debugging codes",
+  "Troubleshooting software issues",
+  "Writing a reports regarding the state of software under development",
+  "Performing developmental tests",
+];
+
 function Skill() {
   return (
     <div className={styles.skill} id="skill">
@@ -28,22 +34,44 @@ function Skill() {
         <div className={styles.one}>
           <div className={styles.text}>
             <div className={styles.title}>
-              <h1>Skill</h1>
+              <h1>Skill & Experience</h1>
               <h3>The expert in anything was once a beginner</h3>
             </div>
-            <div className={styles.six}>
+
+            {/* experience section */}
+            <div className={styles.experience}>
               <div className={styles.three}>
                 <Carousel />
               </div>
-              <div className={styles.four}>
-                <img
-                  src={myImage3}
-                  alt="the project"
-                  className={styles.seven}
-                />
+              <div className={styles.experience01}>
+                <h5 className={styles.jcompany}>Akkenam Technologies</h5>
+                <div className={styles.content}>
+                  <h3 className={styles.jname}>Jr.Developer</h3>
+                  <p className={styles.jname04}>May 2023 - Till Present</p>
+                  <ul className={styles.jname_gal_01}>
+                    {data.map((item, index) => {
+                      return (
+                        <li key={index} className={styles.jname_gal_02}>
+                          <span>.</span> {item}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.akkenamtechnologies.com/"
+                    className={styles.jname_gal_03}
+                  >
+                    <button type="button" className={styles.btn}>
+                      Read More...
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+
           <div className={styles.skillimagecontainer}>
             <div className="jau-11">
               <div className="image-title">

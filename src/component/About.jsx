@@ -23,7 +23,7 @@ function About() {
             Let's turn the ordinary into extraordinary! 🚀🎨
           </p>
           <a
-            href="https://drive.google.com/file/d/1ez7FMTq0yIIKO1KXTtkfl7HRxcA8jJ_6/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1GElgLe3gHi3QmMa1SCM4J5dztexT_JdV/view?usp=drive_link"
             className={styles.alt}
             target="_blank"
             rel="noopener noreferrer"
