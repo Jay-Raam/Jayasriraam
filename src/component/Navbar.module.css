@@ -112,8 +112,9 @@ ul {
     left: -100%;
     text-align: start;
     width: 100%;
-    transition: 0.7s ease-in-out;
+    transition: 0.7s cubic-bezier(0.26, 0.18, 0.8, 0.59);
     background-color: rgb(0, 0, 0);
+    z-index: 1010;
     padding: 10px;
   }
 
