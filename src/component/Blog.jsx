@@ -33,7 +33,7 @@ const BloggerAPIComponent = () => {
     <div className="container">
       <h1 className="gal">Blog</h1>
       <ul className="gal_1">
-        <li className="gal_2 hidden">
+        <li className="gal_2 hidden" data-aos="zoom-in-up" data-aos-delay="100">
           <img src={myImage4} alt="Project" className="gal_3" />
           <p className="gal_4">Tamil Famous Books and Writers</p>
           <a
@@ -48,7 +48,7 @@ const BloggerAPIComponent = () => {
           </a>
         </li>
 
-        <li className="gal_2 hidden">
+        <li className="gal_2 hidden" data-aos="zoom-in-up" data-aos-delay="150">
           <img src={myImage5} alt="Project" className="gal_3" />
           <p className="gal_4">POPULAR WRITERS AND OUR BOOKS</p>
           <a
@@ -62,7 +62,7 @@ const BloggerAPIComponent = () => {
             </button>
           </a>
         </li>
-        <li className="gal_2 hidden">
+        <li className="gal_2 hidden" data-aos="zoom-in-up" data-aos-delay="200">
           <img src={myImage6} alt="Project" className="gal_3" />
           <p className="gal_4">OPEN-SOURCE BOOKS VARIOUS TOPICS</p>
           <a
@@ -76,7 +76,7 @@ const BloggerAPIComponent = () => {
             </button>
           </a>
         </li>
-        <li className="gal_2 hidden">
+        <li className="gal_2 hidden" data-aos="zoom-in-up" data-aos-delay="250">
           <img src={myImage7} alt="Project" className="gal_3" />
           <p className="gal_4">First Gift</p>
           <a
@@ -90,7 +90,7 @@ const BloggerAPIComponent = () => {
             </button>
           </a>
         </li>
-        <li className="gal_2 hidden">
+        <li className="gal_2 hidden" data-aos="zoom-in-up" data-aos-delay="300">
           <img src={myImage8} alt="Project" className="gal_3" />
           <p className="gal_4">My Principle</p>
           <a
@@ -104,7 +104,7 @@ const BloggerAPIComponent = () => {
             </button>
           </a>
         </li>
-        <li className="gal_2 hidden">
+        <li className="gal_2 hidden" data-aos="zoom-in-up" data-aos-delay="350">
           <img src={myImage9} alt="Project" className="gal_3" />
           <p className="gal_4">Travel My Town</p>
           <a

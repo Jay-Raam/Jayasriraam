@@ -74,13 +74,19 @@ function Skill() {
 
           <div className={styles.skillimagecontainer}>
             <div className="jau-11">
-              <div className="image-title">
+              <div
+                className="image-title"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
                 <h5 className={styles.text}>Programming Languages</h5>
               </div>
               <div className={styles.image}>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://html.com"
                 >
                   <img
@@ -92,6 +98,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.w3.org/Style/CSS/Overview.en.html"
                 >
                   <img
@@ -103,6 +111,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://javascript.com"
                 >
                   <img
@@ -114,6 +124,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://react.dev"
                 >
                   <img
@@ -125,6 +137,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://nodejs.org"
                 >
                   <img
@@ -136,6 +150,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://nextjs.org/docs"
                 >
                   <img
@@ -147,6 +163,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.typescriptlang.org/docs/"
                 >
                   <img
@@ -158,6 +176,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.w3schools.com/cs/index.php"
                 >
                   <img
@@ -169,6 +189,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://cplusplus.com"
                 >
                   <img
@@ -181,13 +203,19 @@ function Skill() {
             </div>
 
             <div className="jau-12">
-              <div className="image-title">
+              <div
+                className="image-title"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
                 <h5 className={styles.text}>Software</h5>
               </div>
               <div className={styles.image}>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://figma.com"
                 >
                   <img
@@ -199,6 +227,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.adobe.com/in/products/photoshop.html"
                 >
                   <img
@@ -210,6 +240,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://helpx.adobe.com/in/xd/get-started.html"
                 >
                   <img
@@ -221,6 +253,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://linux.org"
                 >
                   <img
@@ -232,6 +266,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.adobe.com/in/products/aftereffects.html"
                 >
                   <img
@@ -243,6 +279,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.adobe.com/in/products/indesign.html"
                 >
                   <img
@@ -254,6 +292,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://www.microsoft.com/en-in/microsoft-365"
                 >
                   <img
@@ -265,6 +305,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://developer.android.com/studio"
                 >
                   <img
@@ -276,6 +318,8 @@ function Skill() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="zoom-in-up"
+                  data-aos-delay="150"
                   href="https://sketch.com"
                 >
                   <img

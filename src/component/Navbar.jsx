@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className={`${styles.Appheader}`}>
         <nav className={`${styles.navbar}`}>
           <a href="#home" className={`${styles.logo}`}>
             Jayasriraam

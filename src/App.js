@@ -6,8 +6,18 @@ import Skill from "./component/Skill";
 import Blog from "./component/Blog";
 import Portfolio from "./component/Work";
 import Contact from "./component/Contact";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">

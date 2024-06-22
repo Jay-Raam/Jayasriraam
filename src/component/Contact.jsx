@@ -17,7 +17,11 @@ function Contact() {
                 <h1 className={styles.name}>Jayasriraam</h1>
                 <h4>Where Innovation Meets Today ♜</h4>
               </div>
-              <div className={styles.link}>
+              <div
+                className={styles.link}
+                data-aos="zoom-in-up"
+                data-aos-delay="150"
+              >
                 <a
                   href="https://www.instagram.com/_ivanjay_/"
                   target="_blank"
