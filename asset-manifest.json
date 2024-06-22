@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Jayasriraam/static/css/main.d57d8388.css",
+    "main.css": "/Jayasriraam/static/css/main.ee572aa3.css",
     "main.js": "/Jayasriraam/static/js/main.3a628e93.js",
     "static/js/787.7da95b79.chunk.js": "/Jayasriraam/static/js/787.7da95b79.chunk.js",
     "static/media/img_14.jpg": "/Jayasriraam/static/media/img_14.ea27634b9f085ac4748e.jpg",
@@ -17,12 +17,12 @@
     "static/media/gal_6.jpg": "/Jayasriraam/static/media/gal_6.8390b2d270ee85662903.jpg",
     "static/media/m11.avif": "/Jayasriraam/static/media/m11.d983dcd5cab7ea7cd08d.avif",
     "index.html": "/Jayasriraam/index.html",
-    "main.d57d8388.css.map": "/Jayasriraam/static/css/main.d57d8388.css.map",
+    "main.ee572aa3.css.map": "/Jayasriraam/static/css/main.ee572aa3.css.map",
     "main.3a628e93.js.map": "/Jayasriraam/static/js/main.3a628e93.js.map",
     "787.7da95b79.chunk.js.map": "/Jayasriraam/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d57d8388.css",
+    "static/css/main.ee572aa3.css",
     "static/js/main.3a628e93.js"
   ]
 }
